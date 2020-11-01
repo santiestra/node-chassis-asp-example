@@ -23,7 +23,8 @@
     "chai": "4.2.0",
     "chai-http": "4.3.0",
     "uuid": "8.3.0",
-    "opossum": "5.0.1"
+    "opossum": "5.0.1",
+    "jsonwebtoken": "8.5.1"
   },
   "author": "",
   "license": "ISC",
