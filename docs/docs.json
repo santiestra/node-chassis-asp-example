@@ -1,0 +1,46 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Sample API",
+    "description": "Optional multiline or single-line description in [CommonMark](http://commonmark.org/help/) or HTML.",
+    "version": "0.1.9"
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3456/api/v1",
+      "description": "Localhost"
+    },
+    {
+      "url": "http://api.example.com/api/v1",
+      "description": "Optional server description, e.g. Main (production) server"
+    },
+    {
+      "url": "http://staging-api.example.com/api/v1",
+      "description": "Optional server description, e.g. Internal staging server for testing"
+    }
+  ],
+  "basePath": "/api/v1",
+  "paths": {
+    "/hello": {
+      "get": {
+        "summary": "Returns hello",
+        "description": "Some more description",
+        "responses": {
+          "200": {
+            "description": "A hello response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "example": {
+                    "hello": "hello"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
