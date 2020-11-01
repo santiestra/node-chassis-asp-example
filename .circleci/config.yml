@@ -13,7 +13,8 @@ jobs:
       - image: circleci/postgres:11
         environment:
           POSTGRES_USER: circleci
-          POSTGRES_DB: circleci
+          POSTGRES_PASSWORD: circleci
+          POSTGRES_DB: postgres
     environment:
       NODE_ENV: test
       DATABASE_URI: "postgres://circleci:circleci@localhost:5432/postgres"
