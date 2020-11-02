@@ -11,6 +11,7 @@
 - [UUID](https://www.npmjs.com/package/uuid) para generar uuids para distributed tracing de requests
 - [Prettier](https://prettier.io/docs/en/install.html) para linting y code standards
 - [JWT](https://www.npmjs.com/package/jsonwebtoken) para crear JWTs, por ejemplo para auth
+- [Axios](https://github.com/axios/axios) como cliente HTTP para mandar request a otros servicios o APIs
 
 ### Otras configuraciones
 - CircleCI configurado para correr linting y tests
