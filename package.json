@@ -24,7 +24,7 @@
     "chai-http": "4.3.0",
     "uuid": "8.3.0",
     "opossum": "5.0.1",
-    "jsonwebtoken": "8.5.1",
+    "jsonwebtoken": "9.0.0",
     "axios": "0.20.0"
   },
   "author": "",
